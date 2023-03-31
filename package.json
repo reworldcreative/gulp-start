@@ -30,6 +30,7 @@
     "gulp-webp": "^4.0.1",
     "gulp-webp-html-nosvg": "^1.1.1",
     "gulp-webpcss": "^1.1.1",
+    "rfs": "^10.0.0",
     "sass": "^1.59.3",
     "webp-converter": "2.2.3",
     "webpack": "^5.76.2",

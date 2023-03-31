@@ -112,6 +112,7 @@ function scss(done) {
     .pipe(
       sass({
         outputStyle: "expanded",
+        includePaths: ["node_modules"],
       })
     )
     .pipe(ifPlugin(isBuild, groupCssMediaQueries()))
